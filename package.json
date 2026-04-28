@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "midhun",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "logger": "^0.0.1",
+    "mongoose": "^9.4.1",
+    "node-mailer": "^0.1.1",
+    "nodemon": "^3.1.14",
+    "winston": "^3.19.0"
+  }
+}
